@@ -11,5 +11,5 @@ mapreduce.input.fileinputformat.split.maxsize: 3221225472
 mapreduce.input.fileinputformat.split.minsize: 3221225472
 ```
 - Performance (20 GB of image data):
-    Speedup: S = 295752 ms/95772 ms ~ 3
-    Efficiency: E = S/N = 3/6 = 0.5
+  - Speedup: S = 295752 ms/95772 ms ~ 3
+  - Efficiency: E = S/N = 3/6 = 0.5
