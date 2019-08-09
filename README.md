@@ -1,7 +1,7 @@
 # Image Matching with Map Reduce
 - Find identical images by comparing hash values of images in parallel using Map Reduce.
 - Handle small file problem in HDFS with SequenceFile.
-- Optimize Hadoop configurations on a small cluster (1 master & 3 slaves, each with 2 processors & 8 GB memory):
+- Optimize Hadoop 2.x configurations on a small cluster (1 master & 3 slaves, each with 2 processors & 8 GB memory):
 ```
 yarn.nodemanager.resource.memory-mb: 7168
 yarn.scheduler.minimum-allocation-mb: 256
